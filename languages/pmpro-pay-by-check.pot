@@ -14,57 +14,34 @@ msgstr ""
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: pmpro-pay-by-check\n"
 
-#. Plugin Name of the plugin
-#: pmpro-pay-by-check.php
-msgid "Paid Memberships Pro - Pay by Check Add On"
-msgstr ""
-
-#. Plugin URI of the plugin
-#: pmpro-pay-by-check.php
-msgid "https://www.paidmembershipspro.com/add-ons/pmpro-pay-by-check-add-on/"
-msgstr ""
-
-#. Description of the plugin
-#: pmpro-pay-by-check.php
-msgid "A collection of customizations useful when allowing users to pay by check for Paid Memberships Pro levels."
-msgstr ""
-
-#. Author of the plugin
-#: pmpro-pay-by-check.php
-msgid "Paid Memberships Pro"
-msgstr ""
-
-#. Author URI of the plugin
-#: pmpro-pay-by-check.php
-msgid "https://www.paidmembershipspro.com"
-msgstr ""
-
-#: includes/admin.php:11
-#: includes/checkout.php:22
+#: includes/admin.php:11 includes/checkout.php:22
 msgid "Check"
 msgstr ""
 
 #: includes/admin.php:13
+#, php-format
 msgid "Pay by %s Settings"
 msgstr ""
 
 #: includes/admin.php:14
-msgid "Change this setting to allow or disallow the \"Pay by %s\" option for this level."
+#, php-format
+msgid ""
+"Change this setting to allow or disallow the \"Pay by %s\" option for this "
+"level."
 msgstr ""
 
 #: includes/admin.php:18
+#, php-format
 msgid "Allow Paying by %s:"
 msgstr ""
 
-#: includes/admin.php:21
-msgid "No. Use the default gateway only."
-msgstr ""
-
 #: includes/admin.php:22
+#, php-format
 msgid "Yes. Users choose between default gateway and %s."
 msgstr ""
 
 #: includes/admin.php:23
+#, php-format
 msgid "Yes. Users can only pay by %s."
 msgstr ""
 
@@ -80,17 +57,12 @@ msgstr ""
 msgid "Send Reminder Emails:"
 msgstr ""
 
-#: includes/admin.php:36
-#: includes/admin.php:42
+#: includes/admin.php:36 includes/admin.php:42
 msgid "days after a missed payment."
 msgstr ""
 
 #: includes/admin.php:40
 msgid "Cancel Membership:"
-msgstr ""
-
-#: includes/checkout.php:31
-msgid "Choose Your Payment Method"
 msgstr ""
 
 #: includes/checkout.php:41
@@ -109,67 +81,166 @@ msgstr ""
 msgid "Pay by Credit Card"
 msgstr ""
 
-#: includes/checkout.php:54
-#: includes/checkout.php:269
+#: includes/checkout.php:54 includes/checkout.php:269
+#, php-format
 msgid "Pay by %s"
+msgstr ""
+
+#: includes/emails.php:15 includes/emails.php:15
+msgid ""
+"<p>You have a new invoice for !!sitename!!.</p>\n"
+"\n"
+"\t\t!!instructions!!\n"
+"\t\t\n"
+"\t\t<p>Below are details about your membership account and a receipt for "
+"your membership invoice.</p>\n"
+"\t\t\n"
+"\t\t<p>Account: !!display_name!! (!!user_email!!)</p>\n"
+"\t\t<p>Membership Level: !!membership_level_name!!</p>\n"
+"\t\t\n"
+"\t\t<p>\n"
+"\t\t\tInvoice #!!invoice_id!! on !!invoice_date!!<br />\n"
+"\t\t\tTotal Billed: !!invoice_total!!\n"
+"\t\t</p>\n"
+"\t\t\n"
+"\t\t<p>Log in to your membership account here: !!login_link!!</p>"
+msgstr ""
+
+#: includes/emails.php:34 includes/emails.php:34
+msgid ""
+"<p>This is a reminder. You have a new invoice for !!sitename!!.</p>\n"
+"\n"
+"\t\t!!instructions!!\n"
+"\t\t\n"
+"\t\t<p>Below are details about your membership account and a receipt for "
+"your membership invoice.</p>\n"
+"\t\t\n"
+"\t\t<p>Account: !!display_name!! (!!user_email!!)</p>\n"
+"\t\t<p>Membership Level: !!membership_level_name!!</p>\n"
+"\t\t\n"
+"\t\t<p>\n"
+"\t\t\tInvoice #!!invoice_id!! on !!invoice_date!!<br />\n"
+"\t\t\tTotal Billed: !!invoice_total!!\n"
+"\t\t</p>\n"
+"\t\t\n"
+"\t\t<p>Log in to your membership account here: !!login_link!!</p>"
+msgstr ""
+
+#: includes/emails.php:77 includes/emails.php:77
+#, php-format
+msgid "New Invoice for %s at %s"
+msgstr ""
+
+#: includes/emails.php:118 includes/emails.php:189 includes/emails.php:118
+#: includes/emails.php:189
+msgid "Discount Code"
+msgstr ""
+
+#: includes/emails.php:148 includes/emails.php:148
+#, php-format
+msgid "Reminder: New Invoice for %s at %s"
+msgstr ""
+
+#: includes/frontend.php:81 includes/frontend.php:81
+msgid ""
+"Once payment is received and processed you will gain access to your "
+"membership content."
+msgstr ""
+
+#: includes/frontend.php:81 includes/frontend.php:81
+#, php-format
+msgid ""
+"Thank you for your membership to %1$s. Your %2$s membership status is: "
+"<b>%3$s</b>."
+msgstr ""
+
+#: includes/frontend.php:89 includes/frontend.php:89
+#, php-format
+msgid ""
+"Below are details about your membership account and a receipt for your "
+"initial membership invoice. A welcome email with a copy of your initial "
+"membership invoice has been sent to %s."
+msgstr ""
+
+#: includes/member-pending-deprecated.php:217
+#: includes/member-pending-deprecated.php:217
+msgid ""
+"Your payment is currently pending. You will gain access to this page once it "
+"is approved."
+msgstr ""
+
+#: pmpro-pay-by-check.php:54 pmpro-pay-by-check.php:54
+msgid "Docs"
+msgstr ""
+
+#: pmpro-pay-by-check.php:54 pmpro-pay-by-check.php:54
+msgid "View Documentation"
+msgstr ""
+
+#: pmpro-pay-by-check.php:55 pmpro-pay-by-check.php:55
+msgid "Support"
+msgstr ""
+
+#: pmpro-pay-by-check.php:55 pmpro-pay-by-check.php:55
+msgid "Visit Customer Support Forum"
+msgstr ""
+
+#: includes/admin.php:21
+msgid "No. Use the default gateway only."
+msgstr ""
+
+#: includes/checkout.php:31
+msgid "Choose Your Payment Method"
 msgstr ""
 
 #: includes/checkout.php:63
 msgid "Check Out with PayPal"
 msgstr ""
 
-#: includes/emails.php:77
-msgid "New Invoice for %s at %s"
-msgstr ""
-
-#: includes/emails.php:148
-msgid "Reminder: New Invoice for %s at %s"
-msgstr ""
-
 #: includes/frontend.php:24
-msgid "%sYour %s membership is pending.%s We are still waiting for payment for %syour latest invoice%s."
+msgid ""
+"%sYour %s membership is pending.%s We are still waiting for payment for "
+"%syour latest invoice%s."
 msgstr ""
 
 #: includes/frontend.php:26
-msgid "%sImportant Notice:%s We are still waiting for payment on %sthe latest invoice%s for your %s membership."
+msgid ""
+"%sImportant Notice:%s We are still waiting for payment on %sthe latest "
+"invoice%s for your %s membership."
 msgstr ""
 
 #: includes/frontend.php:53
-msgid "%sMembership pending.%s We are still waiting for payment of this invoice."
+msgid ""
+"%sMembership pending.%s We are still waiting for payment of this invoice."
 msgstr ""
 
 #: includes/frontend.php:55
 msgid "%sImportant Notice:%s We are still waiting for payment of this invoice."
 msgstr ""
 
-#: includes/frontend.php:81
-msgid "Thank you for your membership to %1$s. Your %2$s membership status is: <b>%3$s</b>."
+#. Description of the plugin
+#: pmpro-pay-by-check.php
+msgid ""
+"A collection of customizations useful when allowing users to pay by check "
+"for Paid Memberships Pro levels."
 msgstr ""
 
-#: includes/frontend.php:81
-msgid "Once payment is received and processed you will gain access to your membership content."
+#. Author of the plugin
+#: pmpro-pay-by-check.php
+msgid "Paid Memberships Pro"
 msgstr ""
 
-#: includes/frontend.php:89
-msgid "Below are details about your membership account and a receipt for your initial membership invoice. A welcome email with a copy of your initial membership invoice has been sent to %s."
+#. Plugin Name of the plugin
+#: pmpro-pay-by-check.php
+msgid "Paid Memberships Pro - Pay by Check Add On"
 msgstr ""
 
-#: includes/member-pending-deprecated.php:217
-msgid "Your payment is currently pending. You will gain access to this page once it is approved."
+#. Author URI of the plugin
+#: pmpro-pay-by-check.php
+msgid "https://www.paidmembershipspro.com"
 msgstr ""
 
-#: pmpro-pay-by-check.php:54
-msgid "View Documentation"
-msgstr ""
-
-#: pmpro-pay-by-check.php:54
-msgid "Docs"
-msgstr ""
-
-#: pmpro-pay-by-check.php:55
-msgid "Visit Customer Support Forum"
-msgstr ""
-
-#: pmpro-pay-by-check.php:55
-msgid "Support"
+#. Plugin URI of the plugin
+#: pmpro-pay-by-check.php
+msgid "https://www.paidmembershipspro.com/add-ons/pmpro-pay-by-check-add-on/"
 msgstr ""
